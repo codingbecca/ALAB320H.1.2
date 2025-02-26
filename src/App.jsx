@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 
 import blogImg1 from "./assets/blog-image-1.jpg";
 import blogImg2 from "./assets/blog-image-2.jpg";
+import Footer from "./components/Footer";
 
 const article1 = {
   date: "2020-11-12",
@@ -33,6 +34,7 @@ function App() {
         <Article {...article1} />
         <Article {...article2} />
       </main>
+      <Footer />
     </>
   );
 }
