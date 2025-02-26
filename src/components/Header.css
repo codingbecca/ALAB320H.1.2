@@ -2,13 +2,3 @@ h1 {
     color: tomato;
 }
 
-.nav {
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-}
-
-.mainNavLink {
-    color: lightgray;
-}
